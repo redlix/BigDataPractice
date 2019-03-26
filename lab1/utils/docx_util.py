@@ -15,6 +15,7 @@ def get_content(file_path):
     text = ''
     for element in document.paragraphs:
         text += element.text
+    print(text)
     return text
 
 
